@@ -49,10 +49,10 @@ rmse = math.sqrt(mean_squared_error(y_test, y_pred))
 # =============================================================================
 
 import matplotlib.pyplot as plt
-# visulaizing training set
+# visualizing training set
 plt.scatter(X_train, y_train, color='red')
 plt.plot(X_train, model.predict(X_train), color='blue')
 
-# visulaizing testing set
+# visualizing testing set
 plt.scatter(X_test, y_test, color='red')
 plt.plot(X_test, model.predict(X_test), color='blue')
